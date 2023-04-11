@@ -1,5 +1,5 @@
 type: app
-description: Vanilla Quarkus with "Hello World" endpoint
+description: Quarkus puro e simples
 # template used to create the project
 template: java-quarkus-stackspot/vanilla-template
 inputs:
