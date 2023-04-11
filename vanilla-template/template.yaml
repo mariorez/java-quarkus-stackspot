@@ -1,0 +1,9 @@
+name: vanilla-template
+description: Vanilla Quarkus with "Hello World" endpoint
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
