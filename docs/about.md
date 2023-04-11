@@ -1,0 +1,1 @@
+# About java-quarkus-stackspot stack
