@@ -4,12 +4,16 @@ display-name: java-quarkus-stackspot
 picture: stack.png
 category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
 compatibility: # Put a list of technologies compatible with the stack
+  - linux
+  - windows
+  - mac
+technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
   - java
   - quarkus
-technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
-  - docker 
+  - maven 
+  - rest
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
-    content: docs/use-case.md
-    stackfile: stackfiles/default.yaml
+  - title: Vanilla
+    content: docs/vanilla.md
+    stackfile: stackfiles/vanilla.yaml

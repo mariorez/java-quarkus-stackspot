@@ -1,7 +1,7 @@
 type: app
-description: Default stackfile usecase description
+description: Vanilla Quarkus with "Hello World" endpoint
 # template used to create the project
-template: java-quarkus-stackspot/<template-name>
+template: java-quarkus-stackspot/vanilla-template
 inputs:
   some_input: value
 # list of plugins to be applied after project creation
